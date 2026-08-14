@@ -1,0 +1,9 @@
+jupyter
+nbconvert
+ipykernel
+pandas
+python-dotenv
+requests
+matplotlib
+openai
+tiktoken

@@ -1,0 +1,181 @@
+[
+    {
+        "timestamp": "2026-08-07T17:40:14.710271",
+        "task": "context_compression",
+        "model": "gpt-5.6-luna",
+        "dataset_length": 1,
+        "context_statistics": {
+            "total_original_context_tokens": 2921,
+            "total_extracted_context_tokens": 35,
+            "total_removed_tokens": 2886,
+            "context_reduction_percentage": 98.8,
+            "compression_factor": 83.46
+        },
+        "llm_usage": {
+            "num_calls": 1,
+            "prompt_tokens": 3364,
+            "reasoning_tokens": 0,
+            "total_tokens": 3402
+        }
+    },
+    {
+        "timestamp": "2026-08-07T17:46:01.975214",
+        "task": "relevant_hunk_filtering (2)",
+        "model": "gpt-5.6-luna",
+        "dataset_length": 1,
+        "same_file_statistics": {
+            "total_original_tokens": 91,
+            "total_extracted_tokens": 91,
+            "context_reduction_percentage": 0.0,
+            "compression_factor": 1.0
+        },
+        "other_file_statistics": {
+            "total_original_tokens": 179,
+            "total_extracted_tokens": 88,
+            "context_reduction_percentage": 50.84,
+            "compression_factor": 2.03
+        },
+        "combined_statistics": {
+            "total_original_tokens": 270,
+            "total_extracted_tokens": 179,
+            "context_reduction_percentage": 33.7,
+            "compression_factor": 1.51
+        },
+        "llm_usage": {
+            "num_calls": 1,
+            "prompt_tokens": 723,
+            "reasoning_tokens": 32,
+            "total_tokens": 781
+        }
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-08-07T18:16:41.150981",
+        "model_name": "gpt-5.4-mini-2026-03-17",
+        "num_calls": 1,
+        "prompt_tokens": 976,
+        "reasoning_tokens": 186,
+        "total_tokens": 1175
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-08-07T18:18:51.372435",
+        "model_name": "gpt-5.6-luna",
+        "num_calls": 1,
+        "prompt_tokens": 976,
+        "reasoning_tokens": 70,
+        "total_tokens": 1060
+    },
+    {
+        "task": "comment_deduplication",
+        "timestamp": "2026-08-07T18:33:33.020660",
+        "model_name": "gpt-5.6-luna",
+        "num_calls": 6,
+        "prompt_tokens": 8121,
+        "reasoning_tokens": 559,
+        "total_tokens": 9491
+    },
+    {
+        "task": "relevance_judgement",
+        "timestamp": "2026-08-07T18:43:22.955954",
+        "model_name": "gpt-5.6-luna",
+        "num_calls": 1,
+        "prompt_tokens": 577,
+        "reasoning_tokens": 179,
+        "total_tokens": 836
+    },
+    {
+        "timestamp": "2026-08-07T20:50:46.667365",
+        "task": "context_compression (2)",
+        "model": "gpt-5.6-luna",
+        "dataset_length": 3,
+        "context_statistics": {
+            "total_original_context_tokens": 6020,
+            "total_extracted_context_tokens": 435,
+            "total_removed_tokens": 5585,
+            "context_reduction_percentage": 92.77,
+            "compression_factor": 13.84
+        },
+        "llm_usage": {
+            "num_calls": 3,
+            "prompt_tokens": 7519,
+            "reasoning_tokens": 0,
+            "total_tokens": 7963
+        }
+    },
+    {
+        "timestamp": "2026-08-07T20:50:49.338891",
+        "task": "relevant_hunk_filtering (2)",
+        "model": "gpt-5.6-luna",
+        "dataset_length": 3,
+        "same_file_statistics": {
+            "total_original_tokens": 848,
+            "total_extracted_tokens": 848,
+            "context_reduction_percentage": 0.0,
+            "compression_factor": 1.0
+        },
+        "other_file_statistics": {
+            "total_original_tokens": 4032,
+            "total_extracted_tokens": 3069,
+            "context_reduction_percentage": 23.88,
+            "compression_factor": 1.31
+        },
+        "combined_statistics": {
+            "total_original_tokens": 4880,
+            "total_extracted_tokens": 3917,
+            "context_reduction_percentage": 19.73,
+            "compression_factor": 1.25
+        },
+        "llm_usage": {
+            "num_calls": 3,
+            "prompt_tokens": 5878,
+            "reasoning_tokens": 341,
+            "total_tokens": 6317
+        }
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-08-07T20:51:18.276728",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "num_calls": 3,
+        "prompt_tokens": 7323,
+        "reasoning_tokens": 0,
+        "total_tokens": 7886
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-08-07T20:51:22.196468",
+        "model_name": "gpt-5.4-mini-2026-03-17",
+        "num_calls": 3,
+        "prompt_tokens": 7320,
+        "reasoning_tokens": 1180,
+        "total_tokens": 8545
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-08-07T20:51:23.785385",
+        "model_name": "gpt-5.6-luna",
+        "num_calls": 3,
+        "prompt_tokens": 7320,
+        "reasoning_tokens": 712,
+        "total_tokens": 8187
+    },
+    {
+        "task": "comment_deduplication",
+        "timestamp": "2026-08-07T20:52:03.814018",
+        "model_name": "gpt-5.6-luna",
+        "num_calls": 6,
+        "prompt_tokens": 8001,
+        "reasoning_tokens": 574,
+        "total_tokens": 9680
+    },
+    {
+        "task": "relevance_judgement",
+        "timestamp": "2026-08-07T20:52:39.770937",
+        "model_name": "gpt-5.6-luna",
+        "num_calls": 6,
+        "prompt_tokens": 6150,
+        "reasoning_tokens": 731,
+        "total_tokens": 7275
+    }
+]

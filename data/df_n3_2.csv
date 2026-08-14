@@ -1,0 +1,2 @@
+comment_id,comment,category,generation_system,patch_id,severity
+95003a6a-5a74-4649-8dcc-d22c2fa4c7bb,"`ConsoleLineEdit` no longer defines a `STYLESHEET`, so the `stylesheet.set_register(self)` call in its constructor is now redundant. Please remove the registration or move the styling responsibility entirely to `ConsoleWidget` to avoid registering a widget that has no stylesheet of its own.",Maintainability,gpt-5.6-luna,P000002,Low
