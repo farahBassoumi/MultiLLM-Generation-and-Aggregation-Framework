@@ -1,11 +1,10 @@
 N_CONSISTENCY_RUNS = 3
 
-SLEEP_BETWEEN_CALLS = 1
+SLEEP_BETWEEN_CALLS = 0.5
 
 DATA_PATH = "../data/"
 
 
-CONTEXT_REL_MODEL_NAME = "gpt-5.4-mini-2026-03-17"
 
 
 GPT54_MINI_CONFIG = {
@@ -23,6 +22,16 @@ GPT_LUNA_CONFIG = {
     "reasoning_effort": "medium",
 }
 
+CONTEXT_REL_CONFIG = {
+    "name": "gpt-5.6-luna",
+    "reasoning_effort": "low",
+}
+
+DEDUP_CONFIG = {
+    "name": "gpt-5.6-luna",
+    "reasoning_effort": "medium",
+}
+
 GPT_CODEX_CONFIG = {
     "name": "gpt-5.3-codex",
     "reasoning_effort": "low",
@@ -36,4 +45,12 @@ GPT_SOL_CONFIG = {
 GPT_OSS_CONFIG = {
     "name": "openai/gpt-oss-120b",
     "reasoning_effort": "medium",
+}
+
+VALID_CATEGORIES = {
+    "Correctness",
+    "Design",
+    "Maintainability",
+    "Readability",
+    "Documentation",
 }

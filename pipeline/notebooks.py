@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 NOTEBOOK_ORDER_PATTERN = re.compile(
-    r"(?:^|_)n(?P<order>\d+)(?P<stage>[a-z]?)\.ipynb$",
+    r"(?:^|_)n(?P<order>\d+)(?P<stage>[a-z]?)(?:_|\.|$)",
     re.IGNORECASE,
 )
 

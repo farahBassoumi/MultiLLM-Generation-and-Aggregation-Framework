@@ -416,5 +416,84 @@
         "reasoning_tokens": 35245,
         "total_tokens": 319727,
         "execution_duration_seconds": 1121.704
+    },
+    {
+        "task": "context_retrieval",
+        "timestamp": "2026-08-27T01:21:15.450949",
+        "model_name": "gpt-5.6-luna",
+        "num_calls": 1,
+        "prompt_tokens": 11793,
+        "reasoning_tokens": 49,
+        "total_tokens": 12055,
+        "execution_duration_seconds": 8.821
+    },
+    {
+        "task": "context_compression",
+        "timestamp": "2026-08-27T12:12:58.792581",
+        "model_name": "gpt-5.6-luna",
+        "num_calls": 1,
+        "prompt_tokens": 11793,
+        "reasoning_tokens": 0,
+        "total_tokens": 12000,
+        "execution_duration_seconds": 7.867,
+        "dataset_length": 1,
+        "context_statistics": {
+            "total_original_context_tokens": 11332,
+            "total_extracted_context_tokens": 204,
+            "total_removed_tokens": 11128,
+            "context_reduction_percentage": 98.2,
+            "compression_factor": 55.55
+        }
+    },
+    {
+        "task": "in_file_context_compression",
+        "timestamp": "2026-08-27T12:14:21.512434",
+        "model_name": "gpt-5.6-luna",
+        "num_calls": 1,
+        "prompt_tokens": 11793,
+        "reasoning_tokens": 57,
+        "total_tokens": 12063,
+        "execution_duration_seconds": 4.722,
+        "dataset_length": 1,
+        "context_statistics": {
+            "total_original_context_tokens": 11332,
+            "total_extracted_context_tokens": 204,
+            "total_removed_tokens": 11128,
+            "context_reduction_percentage": 98.2,
+            "compression_factor": 55.55
+        }
+    },
+    {
+        "task": "relevant_hunk_filtering",
+        "timestamp": "2026-08-27T12:35:05.694730",
+        "model_name": "gpt-5.6-luna",
+        "num_calls": 1,
+        "prompt_tokens": 2049,
+        "reasoning_tokens": 222,
+        "total_tokens": 2304,
+        "execution_duration_seconds": 9.892,
+        "dataset_length": 1,
+        "same_file_statistics": {
+            "total_original_tokens": 1558,
+            "total_extracted_tokens": 890,
+            "context_reduction_percentage": 42.88,
+            "compression_factor": 1.75
+        },
+        "other_file_statistics": {
+            "total_original_tokens": 13,
+            "total_extracted_tokens": 0,
+            "context_reduction_percentage": 100.0,
+            "compression_factor": 0
+        },
+        "combined_statistics": {
+            "total_original_tokens": 1571,
+            "total_extracted_tokens": 890,
+            "context_reduction_percentage": 43.35,
+            "compression_factor": 1.77
+        }
+    },  
+    {
+        "task": "github infomration extraction",
+        "duration": "took 32 mins for 500 elements"
     }
 ]
