@@ -1,0 +1,12 @@
+{
+    "codex-model": {
+        "batch_id": "batch_6a975d13d8ec81909dbea08c97ab43d2",
+        "input_file_id": "file-V28Xs78gGYYiez9Fn5jYaz",
+        "endpoint": "/v1/responses"
+    },
+    "gpt-4o": {
+        "batch_id": "batch_6a975d15989081908ed9fbc856aa3f14",
+        "input_file_id": "file-KVSEzTiGMd2jfNR5xDkqHY",
+        "endpoint": "/v1/chat/completions"
+    }
+}
