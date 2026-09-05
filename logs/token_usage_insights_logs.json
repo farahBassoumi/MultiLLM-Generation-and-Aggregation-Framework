@@ -1,0 +1,227 @@
+[
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-01T15:41:45.180742",
+        "model_name": "gpt-5.3-codex",
+        "num_calls": 1,
+        "prompt_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 1403
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-01T17:38:12.034269",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "num_calls": 100,
+        "prompt_tokens": 404799,
+        "reasoning_tokens": 0,
+        "total_tokens": 416811
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-01T17:40:32.494218",
+        "model_name": "gpt-5.4-mini-2026-03-17",
+        "num_calls": 100,
+        "prompt_tokens": 404699,
+        "reasoning_tokens": 22594,
+        "total_tokens": 433385
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-01T17:41:58.432024",
+        "model_name": "gpt-5.6-sol",
+        "num_calls": 100,
+        "prompt_tokens": 404699,
+        "reasoning_tokens": 12280,
+        "total_tokens": 422217
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-01T17:42:15.301677",
+        "model_name": "gpt-5.3-codex",
+        "num_calls": 100,
+        "prompt_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 434839
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-01T18:22:20.352736",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "num_calls": 100,
+        "prompt_tokens": 341483,
+        "reasoning_tokens": 0,
+        "total_tokens": 353241
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-01T18:25:33.364306",
+        "model_name": "gpt-5.4-mini-2026-03-17",
+        "num_calls": 96,
+        "prompt_tokens": 329054,
+        "reasoning_tokens": 20866,
+        "total_tokens": 356424
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-01T18:28:42.401057",
+        "model_name": "gpt-5.6-sol",
+        "num_calls": 93,
+        "prompt_tokens": 322887,
+        "reasoning_tokens": 10565,
+        "total_tokens": 339339
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-01T18:30:34.506760",
+        "model_name": "gpt-5.3-codex",
+        "num_calls": 82,
+        "prompt_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 300335
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-01T18:56:01.960070",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "num_calls": 0,
+        "prompt_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-01T18:56:04.952583",
+        "model_name": "gpt-5.4-mini-2026-03-17",
+        "num_calls": 0,
+        "prompt_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-01T18:56:16.136892",
+        "model_name": "gpt-5.6-sol",
+        "num_calls": 0,
+        "prompt_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-01T19:06:18.489286",
+        "model_name": "gpt-5.3-codex",
+        "num_calls": 0,
+        "prompt_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-02T00:32:48.406836",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "num_calls": 100,
+        "prompt_tokens": 442551,
+        "reasoning_tokens": 0,
+        "total_tokens": 455184
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-02T00:36:09.111783",
+        "model_name": "gpt-5.4-mini-2026-03-17",
+        "num_calls": 100,
+        "prompt_tokens": 442451,
+        "reasoning_tokens": 29409,
+        "total_tokens": 478003
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-02T00:37:22.517677",
+        "model_name": "gpt-5.3-codex",
+        "num_calls": 100,
+        "prompt_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 475565
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-02T00:37:40.230035",
+        "model_name": "gpt-5.6-sol",
+        "num_calls": 100,
+        "prompt_tokens": 442451,
+        "reasoning_tokens": 12942,
+        "total_tokens": 461275
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-02T00:49:26.940352",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "num_calls": 100,
+        "prompt_tokens": 335296,
+        "reasoning_tokens": 0,
+        "total_tokens": 347584
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-02T00:51:12.544087",
+        "model_name": "gpt-5.4-mini-2026-03-17",
+        "num_calls": 100,
+        "prompt_tokens": 335196,
+        "reasoning_tokens": 25256,
+        "total_tokens": 367376
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-02T00:53:51.936202",
+        "model_name": "gpt-5.3-codex",
+        "num_calls": 100,
+        "prompt_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 368449
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-02T00:54:56.354119",
+        "model_name": "gpt-5.6-sol",
+        "num_calls": 100,
+        "prompt_tokens": 335196,
+        "reasoning_tokens": 12745,
+        "total_tokens": 352952
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-02T01:19:53.375207",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "num_calls": 105,
+        "prompt_tokens": 371536,
+        "reasoning_tokens": 0,
+        "total_tokens": 385024
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-02T01:21:51.490462",
+        "model_name": "gpt-5.4-mini-2026-03-17",
+        "num_calls": 105,
+        "prompt_tokens": 371431,
+        "reasoning_tokens": 23891,
+        "total_tokens": 401940
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-02T01:23:21.724085",
+        "model_name": "gpt-5.3-codex",
+        "num_calls": 105,
+        "prompt_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 403915
+    },
+    {
+        "task": "comment_generation",
+        "timestamp": "2026-09-02T01:25:07.055056",
+        "model_name": "gpt-5.6-sol",
+        "num_calls": 105,
+        "prompt_tokens": 371431,
+        "reasoning_tokens": 13198,
+        "total_tokens": 390338
+    }
+]
